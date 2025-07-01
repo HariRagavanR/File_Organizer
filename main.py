@@ -1,7 +1,7 @@
 import shutil
 from pathlib import Path
 
-file_location_path = input("Enter the folder path to organize files: ").strip()
+file_location_path = "/home/hari/Downloads"
 
 def organize_files():
     source_path = Path(file_location_path)
